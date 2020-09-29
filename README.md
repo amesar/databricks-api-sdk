@@ -22,6 +22,14 @@ All methods of the wrapper variants return a Python `dict` response. The HTTP wr
 | Higher-level "API" | [02_api.py](02_api.py) | from databricks_cli.clusters.api import ClusterApi, JobsApi |
 | Higher-level "Service" | [03_service.py](03_service.py) | from databricks_cli.sdk.service import ClusterService,JobService |
 
+## Setup
+
+See [conda.yaml](conda.yaml).
+
+```
+conda env create --file conda.yaml
+conda activate databricks-api-sdk
+```
 
 ## SDK Wrapper Examples
 
